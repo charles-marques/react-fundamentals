@@ -6,9 +6,21 @@ import PrimeiroArrow from './components/PrimeiroArrow';
 import ComParametro from './components/ComParametro';
 import CompFilhos from './components/CompFilhos';
 import Card from './components/layout/Card';
+import Repeticao from './components/layout/Repeticao';
+import Condicional from './components/Condicional';
+import CondicionalComIf from './components/CondicionalComIf';
 
 export default (props) => (
     <div className="App">
+        <Card titulo="#06 - Condicional v2">
+            <CondicionalComIf numero={12}></CondicionalComIf>
+        </Card>
+        <Card titulo="#05 - Condicional v1">
+            <Condicional numero={11}></Condicional>
+        </Card>
+        <Card titulo="#04 - Repetição">
+            <Repeticao/>
+        </Card>
         <Card titulo="#03 - Componente com Filhos">
             <CompFilhos  >
                 <ul>

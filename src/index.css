@@ -1,10 +1,14 @@
 body {
-    background-color: #eee;
     color: #636c72;
-    text-align: center;
-    font-family: sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 300;
-    font-size: 2em;
+    font-size: 1.4em;
+    background-color: #444;
+    color: #fff;
+    text-align: center;
+    background: #232526;
+    background: -webkit-linear-gradient(to right, rgb(35, 37, 38), rgb(65, 67, 69));
+    background: linear-gradient(to right, rgb(35, 37, 38), rgb(65, 67, 69));
 }
 
 h1,
